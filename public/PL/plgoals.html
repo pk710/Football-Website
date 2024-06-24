@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Premier League Stats</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-ontop">
+            <img src="manutd.jpg.png" alt="Image 1" class="small-image1 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 70px; top: 0px;">
+            <img src="chelsea.jpg.png" alt="Image 2" class="small-image2 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 140px;top: 0px;">
+            <img src="city.jpg.png" alt="Image 3" class="small-image3 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 210px;top: 0px;">
+            <img src=" liverpool.jpg.png" alt="Image 4" class="small-image4 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 260px;top: 0px;">
+            <img src=" arsenal.jpg.png" alt="Image 5" class="small-image5 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 330px;top: 0px;">
+            <img src="astonVi.png" alt="Image 6" class="small-image6 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 400px;top: 7px;">
+            <img src="brighton.svg.png" alt="Image 7" class="small-image7 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 470px;top: 0px;">
+            <img src="westham.svg.png" alt="Image 8" class="small-image8 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 540px;top: 0px;">
+            <img src="burnley.jpg" alt="Image 9" class="small-image9 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 610px;top: 5px;">
+            <img src="bmouth.jpeg" alt="Image 10" class="small-image10 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 680px;top: 5px;">
+            <img src="bford.png" alt="Image 10" class="small-image11 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 760px;top: 0px;">
+            <img src="everton.png" alt="Image 10" class="small-image12 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 830px;top: 0px;">
+            <img src="new.png" alt="Image 10" class="small-image13 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 900px;top: 0px;">
+            <img src="wolves.png" alt="Image 10" class="small-image14 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 970px;top: 0px;">
+            <img src="forest.png" alt="Image 10" class="small-image15 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 1040px;top: 0px;">
+            <img src="luton.png" alt="Image 10" class="small-image16 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 1110px;top: 0px;">
+            <img src="fulham.png" alt="Image 10" class="small-image17 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 1180px;top: 0px;">
+            <img src="she.png" alt="Image 10" class="small-image18 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 1250px;top: 0px;">
+            <img src="cry.png" alt="Image 10" class="small-image19 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 1320px;top: 0px;">
+        </div>
+
+        <div class="optionsmenu">
+            <h1 class="pregoal">Premier League</h1>
+            <ul class="menu">
+                <li><a href="plnews.html">NEWS</a></li>
+                <li><a href="plmatches.html">MATCHES</a></li>
+                <li><a href="plstanding.html">STANDINGS</a></li>
+                <li><a href="plgoals.html">STATS</a></li>
+            </ul>
+        </div>
+
+        <!-- <h1 class="topscac">Top Scorer and Top Assists</h1>-->
+        <div class="row">
+            <div class="column">
+                <h2 class="topscac">Top Scorers</h2>
+                <table class="top-scorers-table">
+                    <thead>
+                        <tr>
+                            <th>Player Image</th>
+                            <th>Name</th>
+                            <th>Goals</th>
+                        </tr>
+                    </thead>
+                    <tbody id="top-scorers-body">
+                    </tbody>
+                </table>
+            </div>
+            <div class="column">
+                <h2 class="topscac">Top Assisters</h2>
+                <table class="top-assisters-table">
+                    <thead>
+                        <tr>
+                            <th>Player Image</th>
+                            <th>Name</th>
+                            <th>Assists</th>
+                        </tr>
+                    </thead>
+                    <tbody id="top-assisters-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

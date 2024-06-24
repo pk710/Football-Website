@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOTSTRIKE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .marquee {
+            overflow: hidden;
+            position: relative;
+            color: #f0f0f0;
+            white-space: nowrap;
+        }
+        .marquee span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 15s linear infinite;
+        }
+        .marquee:hover span {
+            animation-play-state: paused;
+        }
+        @keyframes marquee {
+            from {
+                transform: translateX(0%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 flex flex-col justify-between min-h-screen">
+    <!-- Club Images -->
+    <div style="
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;">
+        <img src="LaLiga/barca.png" alt="La Liga" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="PL/chelsea.jpg.png" alt="Chelsea" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="PL/manutd.jpg.png" alt="Man City" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="LaLiga/at.png" alt="Liverpool" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="SerieA/acmilan.png" alt="Arsenal" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="LaLiga/lp.png" alt="Aston Villa" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="LaLiga/cel.png" alt="Brighton" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="SerieA/udinese.png" alt="West Ham" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="SerieA/Intermilan.png" alt="Burnley" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="PL/new.png" alt="Bournemouth" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="SerieA/roma.png" alt="Brentford" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="LaLiga/real.png" alt="Everton" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="SerieA/Bologna.png" alt="Newcastle" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="PL/city.jpg.png" alt="Wolves" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="PL/westham.svg.png" alt="Forest" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="SerieA/juventus.png" alt="Luton" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="LaLiga/sev.png" alt="Fulham" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="PL/liverpool.jpg.png" alt="Sheffield" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+        <img src="LaLiga\lp.png" alt="Crystal Palace" style="width: 40px; height: 40px; margin: 5px; object-fit: contain;">
+    </div>
+
+    <!-- Title -->
+    <header class="text-center mt-6">
+        <h1 class="text-4xl font-bold">FOTSTRIKE</h1>
+    </header>
+
+    <!-- Running Comment -->
+    <div class="marquee my-4 text-xl">
+        <span>Welcome to our page! Find the latest news, matches, stats, and standings.</span>
+    </div>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center justify-center">
+        <div class="container mx-auto flex justify-around px-4">
+            <!-- Image Block 1 -->
+            <div class="flex flex-col items-center mx-2">
+                <img src="premierleague.png" alt="Premier League" class="w-40 h-40 rounded-lg mb-4 object-cover">
+                <a href="PL/plnews.html" class="bg-blue-600 text-white py-2 px-4 rounded text-center w-full">Premier League</a>
+            </div>
+            <!-- Image Block 2 -->
+            <div class="flex flex-col items-center mx-2">
+                <img src="LaLiga.png" alt="La Liga" class="w-40 h-40 rounded-lg mb-4 object-contain">
+                <a href="LaLiga/laliganews.html" class="bg-blue-600 text-white py-2 px-4 rounded text-center w-full">La Liga</a>
+            </div>
+            <!-- Image Block 3 -->
+            <div class="flex flex-col items-center mx-2">
+                <img src="Seriea.png" alt="Serie A" class="w-40 h-40 rounded-lg mb-4 object-contain">
+                <a href="SerieA/serienews.html" class="bg-blue-600 text-white py-2 px-4 rounded text-center w-full">Serie A</a>
+            </div>            
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center mb-10">
+        <p>&copy; 2024 FOTSTRIKE. All rights reserved.</p>
+    </footer>
+</body>
+</html>

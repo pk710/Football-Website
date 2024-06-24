@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.optionsmenu {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#pre {
+    color: white;
+    background-color: #8A2BE2;
+    width: 100%;
+    margin-top: -1px;
+    padding: 10px;
+}
+
+.optionsmenu {
+    width: 100%;
+}
+
+.table {
+    color: white;
+    background-color: #8A2BE2;
+    width: 100%;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: -26px;
+
+}
+
+.menu li {
+    margin: 10px;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #8A2BE2;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu li a.active {
+    background-color: white;
+    color: black;
+
+}
+
+/* CSS for matches.html */
+
+.prematch {
+    color: white;
+    background-color: #8A2BE2;
+    width: 100%;
+    margin-top: -1px;
+    padding: 10px;
+}
+
+.menu li.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.page-title {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.fixture-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    position: absolute;
+    top: 150px;
+    right: -290px;
+}
+
+
+
+.fixture-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+
+
+
+}
+
+.team-image {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.team-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.home-team,
+.away-team {
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vs-text {
+    flex: 0.2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.fixture-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* CSS for PL standings */
+
+.pregoal {
+    color: white;
+    background-color: #8A2BE2;
+    width: 100%;
+    margin-top: -1px;
+    padding: 10px;
+}
+
+.optionsmenu {
+    position: absolute;
+    top: 60px;
+}
+
+.table {
+    position: absolute;
+    top: 170px;
+
+}
+
+
+
+.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 150px;
+}
+
+.standings-table thead th {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+}
+
+.standings-table tbody td {
+    border: 1px solid #ddd;
+    padding: 2px;
+    text-align: center;
+}
+
+.standings-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.standings-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.standings-table img {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: middle;
+}
+
+.standings-h1tag {
+    color: black;
+}
+
+.table-heading {
+    margin-top: 20px;
+    background: none;
+    /* Remove background color */
+    color: black;
+    /* Set the text color to black */
+    font-weight: normal;
+    /* Remove any additional styling */
+}
+
+/* CSS for PL goals and assists */
+
+.topscac {
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 11px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*CSS for news.html*/
+
+.containera {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#news-list {
+    position: absolute;
+    top: 140px;
+    right: 270px;
+}
+
+
+
+.hnewstag {
+    background: none;
+    color: black;
+}
+
+.news-item {
+    display: flex;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.news-item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.news-text {
+    flex: 1;
+    text-align: left;
+}
+
+.news-text h2 {
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+}
+
+.news-date {
+    font-size: 14px;
+    color: #888;
+}
+
+.optionsmenu {
+    width: 100%;
+}
+
+.prenews {
+    color: white;
+    background-color: #8A2BE2;
+    width: 100%;
+    margin-top: -1px;
+    padding: 10px;
+}
+
+.centered {
+    text-align: center;
+    margin: 20px;
+}
