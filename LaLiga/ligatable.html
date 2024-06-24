@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>La Liga Table</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-ontop">
+            <img src="barca.png" alt="Image 1" class="small-image1 hover-image"
+                style="width: 50px;height: 50px;margin: 5px;position: absolute;left: 72px; top: 5px;">
+            <img src="real.png" alt="Image 2" class="small-image2 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 142px;top: 0px;">
+            <img src="at.png" alt="Image 3" class="small-image3 hover-image"
+                style="width: 40px;height: 50px;margin: 5px;position: absolute;left: 212px;top: 3px;">
+            <img src="rb.png" alt="Image 4" class="small-image4 hover-image"
+                style="width: 60px;height: 55px;margin: 5px;position: absolute;left: 262px;top: 0px;">
+            <img src="ab.png" alt="Image 5" class="small-image5 hover-image"
+                style="width: 80px;height: 50px;margin: 5px;position: absolute;left: 322px;top: 6px;">
+            <img src="rs.png" alt="Image 6" class="small-image6 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 402px;top: 7px;">
+            <img src="val.png" alt="Image 7" class="small-image7 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 472px;top: 6px;">
+            <img src="rv.svg" alt="Image 8" class="small-image8 hover-image"
+                style="width: 40px;height: 55px;margin: 5px;position: absolute;left: 542px;top: 4px;">
+            <img src="lp.png" alt="Image 9" class="small-image9 hover-image"
+                style="width: 40px;height: 50px;margin: 5px;position: absolute;left: 612px;top: 5px;">
+            <img src="os.png" alt="Image 10" class="small-image10 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 682px;top: 3px;">
+            <img src="ge.png" alt="Image 10" class="small-image11 hover-image"
+                style="width: 85px;height: 55px;margin: 5px;position: absolute;left: 732px;top: 4px;">
+            <img src="villa" alt="Image 10" class="small-image12 hover-image"
+                style="width: 50px;height: 60px;margin: 5px;position: absolute;left: 827px;top: 0px;">
+            <img src="sev.png" alt="Image 10" class="small-image13 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 912px;top: 6px;">
+            <img src="ca.jpeg" alt="Image 10" class="small-image14 hover-image"
+                style="width: 55px;height: 65px;margin: 5px;position: absolute;left: 972px;top: -1px;">
+            <img src="mal.png" alt="Image 10" class="small-image15 hover-image"
+                style="width: 40px;height: auto;margin: 5px;position: absolute;left: 1042px;top: 3px;">
+            <img src="cel.png" alt="Image 10" class="small-image16 hover-image"
+                style="width: 40px;height: 55px;margin: 5px;position: absolute;left: 1112px;top: 0px;">
+            <img src="gra.png" alt="Image 10" class="small-image17 hover-image"
+                style="width: 70px;height: 55px;margin: 5px;position: absolute;left: 1162px;top: 0px;">
+            <img src="alme.jpeg" alt="Image 10" class="small-image18 hover-image"
+                style="width: 55px;height: 55px;margin: 5px;position: absolute;left: 1242px;top: 0px;">
+            <img src="giro.webp" alt="Image 10" class="small-image19 hover-image"
+                style="width: 38px;height: 50px;margin: 5px;position: absolute;left: 1332px;top: 0px;">
+        </div>
+        <div class="optionsmenu">
+            <h1 class="pre" style=" background-color: red; width: 100%; color: white; height: auto;
+    margin-top: 2.5px;
+    padding: 12px;">La Liga</h1>
+            <ul class="menu">
+                <li><a href="laliganews.html">NEWS</a></li>
+                <li><a href="laligamatches.html">MATCHES</a></li>
+                <li><a href="ligatable.html">STANDINGS</a></li>
+                <li><a href="laligagoals.html">STATS</a></li>
+            </ul>
+        </div>
+        <br>
+
+        <!-- <h2 class="table-heading">La liga Table</h2>-->
+        <table class="standings-table">
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>Logo</th>
+                    <th>Points</th>
+                    <th>Games Played</th>
+                    <th>Goals Scored</th>
+                    <th>Goals Against</th>
+                    <th>Goal Difference</th>
+                    <th>Form</th>
+                </tr>
+            </thead>
+            <tbody id="standings-body">
+            </tbody>
+        </table>
+        <script src="script_laliga.js"></script>
+</body>
+
+</html>
